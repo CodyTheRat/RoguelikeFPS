@@ -44,9 +44,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Actors\Player\CameraControl.cs" />
-     <Compile Include="Assets\Actors\Player\CameraControlCircle.cs" />
+     <Compile Include="Assets\Actors\Player\CameraMovement.cs" />
+     <Compile Include="Assets\Actors\Player\GunScript.cs" />
+     <Compile Include="Assets\Actors\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\Static Scripts\MathHelper.cs" />
+     <Compile Include="Assets\Scripts\Testbed Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\Testbed Scripts\CameraControlCircle.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
